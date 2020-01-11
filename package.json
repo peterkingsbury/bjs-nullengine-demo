@@ -1,0 +1,22 @@
+{
+  "name": "bjs-nullengine-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Peter Kingsbury peter.kingsbury@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "babylonjs": "^4.1.0-beta.20",
+    "babylonjs-gui": "^4.1.0-beta.20",
+    "babylonjs-loaders": "^4.1.0-beta.20",
+    "babylonjs-materials": "^4.1.0-beta.20",
+    "babylonjs-post-process": "^4.1.0-beta.20",
+    "babylonjs-serializers": "^4.1.0-beta.20",
+    "xhr2": "^0.2.0"
+  }
+}
