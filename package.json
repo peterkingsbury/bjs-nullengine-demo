@@ -11,12 +11,15 @@
   "author": "Peter Kingsbury peter.kingsbury@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "ammojs": "0.0.2",
     "babylonjs": "^4.1.0-beta.20",
     "babylonjs-gui": "^4.1.0-beta.20",
     "babylonjs-loaders": "^4.1.0-beta.20",
     "babylonjs-materials": "^4.1.0-beta.20",
     "babylonjs-post-process": "^4.1.0-beta.20",
     "babylonjs-serializers": "^4.1.0-beta.20",
+    "cannon": "^0.6.2",
+    "oimo": "^1.0.9",
     "xhr2": "^0.2.0"
   }
 }
