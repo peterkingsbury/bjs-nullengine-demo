@@ -1,5 +1,9 @@
 'use strict';
 
+global.Ammo = require('ammojs');
+global.OIMO = require('oimo');
+global.CANNON = require('cannon');
+
 const BABYLON = require('babylonjs');
 const LOADERS = require('babylonjs-loaders');
 const {
@@ -27,9 +31,9 @@ global.XMLHttpRequest = require('xhr2').XMLHttpRequest;
   let meshes = null;
   let physicsEngine = null;
 
-  try { physicsEngine = new OimoJSPlugin() } catch (e) { console.log(e) }
+  //try { physicsEngine = new OimoJSPlugin() } catch (e) { console.log(e) }
   try { physicsEngine = new AmmoJSPlugin() } catch (e) { console.log(e) }
-  try { physicsEngine = new CannonJSPlugin() } catch (e) { console.log(e) }
+  //try { physicsEngine = new CannonJSPlugin() } catch (e) { console.log(e) }
 
   if (physicsEngine) {
     scene.enablePhysics(undefined, physicsEngine);
